@@ -123,6 +123,28 @@ header {
   background-color: #429d51;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  gap: 20px;
+  /* Space between boxes */
+  padding: 20px;
+  background-color: #f5f5f5;
+  justify-content: center;
+  /* Center content horizontally */
+}
+
+.flex-container .seo,
+.flex-container .box {
+  flex: 1 1 250px;
+  /* Grow and shrink, minimum width 250px */
+  background-color: #0052cc;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
 /* Footer */
 footer {
   text-align: center;

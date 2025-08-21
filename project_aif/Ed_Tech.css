@@ -1,0 +1,109 @@
+#header{
+    display: flex;
+    color: #51585f;
+    background-color: #f0f0f0;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 10px 20px;
+    /* background-color: #f0f0f0; */
+}
+#logo{
+    height: 80px;
+    width: 200px;
+   
+   
+    
+}
+#btn{
+    
+    background-color: rgb(158, 174, 114);
+    color: white;
+     font-size: 16px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+       transition: background-color 0.3s ease;
+}
+#section{
+    display: flex;
+    height: 33.3%;
+    width: 33.%3;
+    
+}
+.card{
+    width: 250px;
+    height: 190px;
+     background-color: #eaeaea;
+      
+    border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+     border: 1px solid black;
+     transition: transform 0.2s ease;
+     margin: 10px;
+     text-align: center;
+     
+     
+}
+
+
+.card:hover {
+            transform: translateX(-5px);
+}
+
+.student {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.student:hover {
+    transform: scale(1.03);
+}
+
+.student {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 300px;
+   text-align: center;
+}
+
+.student:hover {
+    transform: scale(1.03);
+}
+
+/* Image styling */
+.student img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 3px solid #ccc;
+}
+
+.student-container {
+    display: flex;
+    justify-content: center;  /* centers the row */
+    gap: 30px;                /* spacing between student cards */
+    flex-wrap: wrap;          /* allows wrapping on smaller screens */
+    padding: 20px;
+}
+
+
