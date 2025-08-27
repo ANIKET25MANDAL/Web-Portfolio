@@ -151,6 +151,42 @@ footer {
   padding: 20px;
   background-color: #e7cfde;
   font-size: 0.9rem;
-  color: #777;
+  color: #77 /* height: 100px;
+  width: 100px;
+  background-color: #429d51;
+  border: 2px solid black;
+  display: flex;
+  justify-content: space-between;7;
   margin-top: 30px;
+}
+
+
+.parent div {
+  */
+}
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;   /* allows items to move to next line */
+  gap: 10px;         /* spacing between boxes */
+}
+
+.parent div {
+  height: 100px;
+  width: 100px;
+  background-color: #429d51;
+  border: 2px solid black;
+  display: flex;
+  justify-content: center; /* centers number horizontally */
+  align-items: center;     /* centers number vertically */
+  font-weight: bold;
+  color: white;
+}
+
+
+.parent.div div {
+  height: 100px;
+  width: 100px;
+  background-color: #429d51;
+  border: 2px solid black;
 }
